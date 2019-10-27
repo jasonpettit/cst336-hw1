@@ -1,0 +1,92 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+header, footer {
+    text-align: center;
+}
+
+/* NAVIGATION */
+nav a {
+    font-family: 'Work Sans', sans-serif;
+    padding: 15px;
+    padding-bottom: 4px;
+    font-size: 1em;
+    text-decoration: none;
+    color: #BBA463; 
+}
+
+nav a:hover { /* pseudo class */
+    color: red;
+    font-size: 1.25em;
+    transition: .9s;
+}
+
+nav a:visited {
+    color: red;
+}
+
+main {
+    display: flex;
+}
+
+footer {
+    font-family: 'Work Sans', sans-serif;
+    font-size: .75em;
+    color: #BBA463;
+}
+
+#activepage {
+    color: orange;
+}
+
+table {
+    margin: 0px auto;
+    padding: 10px;
+}
+
+td {
+    padding-right: 10px;
+    font-size: 1.3em;
+}
+
+td strong {
+    color: orange;
+}
+
+#table-header
+{
+    background-color: #351a00;
+}
+
+.table-row {
+    background-color: #753900;
+}
+
+ul {
+    width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.hobby {
+    color: yellow;
+}
+
+h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2em;
+    margin-bottom: 0px;
+    color: #BBA463;
+}
+
+.source {
+    font-family: 'Work Sans', sans-serif;
+    color: #BBA463;
+}
+
+#sources {
+    font-size: 1em;
+}
