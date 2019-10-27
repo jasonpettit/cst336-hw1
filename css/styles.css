@@ -28,9 +28,7 @@ nav a:visited {
     color: red;
 }
 
-main {
-    display: flex;
-}
+
 
 footer {
     font-family: 'Work Sans', sans-serif;
