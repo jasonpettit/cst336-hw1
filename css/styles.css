@@ -88,3 +88,12 @@ h1 {
 #sources {
     font-size: 1em;
 }
+
+#companies {
+    display: flex;
+    justify-content: space-between;
+}
+
+.company {
+    width: 32%;
+}
