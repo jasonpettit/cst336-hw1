@@ -96,4 +96,6 @@ h1 {
 
 .company {
     width: 32%;
+    text-align: center;
+    background-color: #BBA463;
 }
