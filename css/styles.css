@@ -90,7 +90,7 @@ h1 {
 }
 
 #companies {
-    display: flex;
+    display: block;
     justify-content: space-between;
 }
 
