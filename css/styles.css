@@ -87,15 +87,6 @@ h1 {
     color: #BBA463;
 }
 
-.source {
-    font-family: 'Work Sans', sans-serif;
-    color: #BBA463;
-}
-
-#sources {
-    font-size: 1em;
-}
-
 #companies {
     display: block;
     justify-content: space-between;
