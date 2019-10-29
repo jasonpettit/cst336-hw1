@@ -103,3 +103,7 @@ i {
     font-family: 'Work Sans', sans-serif;
     color: #BBA463;
 }
+
+iframe {
+    text-align: center;
+}
