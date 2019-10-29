@@ -28,7 +28,14 @@ nav a:visited {
     color: red;
 }
 
+a {
+    color: #BBA463;
+    text-decoration: none;
+}
 
+a:visited {
+    color: red;
+}
 
 footer {
     font-family: 'Work Sans', sans-serif;
