@@ -29,6 +29,7 @@ nav a:visited {
     color: red;
 }
 
+/* NON-NAV LINKS */
 a {
     color: #BBA463;
     text-decoration: none;
@@ -38,47 +39,24 @@ a:visited {
     color: red;
 }
 
-footer {
-    font-family: 'Work Sans', sans-serif;
-    font-size: .75em;
-    color: #BBA463;
-}
-
 #activepage {
     color: orange;
 }
 
-table {
-    margin: 0px auto;
-    padding: 10px;
+.randomBox {
+  width: 150px;
+  height: 100px;
+  border-radius: 5px;
+  background-color: blue;
+  padding: 5px;
+  margin: 5px;
 }
 
-td {
-    padding-right: 10px;
-    font-size: 1.3em;
-}
-
-td strong {
-    color: orange;
-}
-
-#table-header
-{
-    background-color: #351a00;
-}
-
-.table-row {
-    background-color: #753900;
-}
-
+/* FONT STYLES */
 ul {
     width: 500px;
     margin: 0 auto;
     text-align: left;
-}
-
-.hobby {
-    color: yellow;
 }
 
 h1 {
@@ -88,18 +66,46 @@ h1 {
     color: #BBA463;
 }
 
-
-
+h2 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1em;
+}
 
 i {
     font-family: 'Work Sans', sans-serif;
     color: #BBA463;
 }
 
-iframe {
-    border: 0;
+#articleText {
+    font-variant: small-caps;
 }
 
+li {
+    list-style-type: upper-latin;
+}
+
+#company li {
+    list-style-type: circle;
+}
+
+/* FOOTER */
+footer {
+    font-family: 'Work Sans', sans-serif;
+    font-size: .75em;
+    color: #BBA463;
+}
+
+/* Page 2 */
+iframe {
+    border: 1;
+    width: 560; 
+    height: 315;
+    margin-left: 25%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* Page 3 */
 #company {
     display: grid;
     border-radius: 5px;
@@ -114,4 +120,9 @@ iframe {
     grid-columns: auto;
     border: 2px solid #996633;
     padding: 10px;
+}
+
+.companies img{
+    width: 50%;
+    height: 50%;
 }
