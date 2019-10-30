@@ -87,17 +87,8 @@ h1 {
     color: #BBA463;
 }
 
-#companies {
-    display: block;
-    justify-content: space-between;
-}
 
-.company {
-    text-align: center;
-    background-color: #BBA463;
-    padding: 10px;
-    text-decoration: blink;
-}
+
 
 i {
     font-family: 'Work Sans', sans-serif;
@@ -107,3 +98,11 @@ i {
 iframe {
     border: 0;
 }
+
+.companies {
+            display: grid;
+            border-radius: 5px;
+            padding: 10px;
+            background-color: #BBA463;
+            border: 2px solid #996633;
+        }
