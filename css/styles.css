@@ -2,6 +2,7 @@ body {
     font-family: 'Work Sans', sans-serif;
     background-color: black;
     color: white;
+    width: 90%;
 }
 
 header, footer {
@@ -99,10 +100,18 @@ iframe {
     border: 0;
 }
 
+#company {
+    display: grid;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #BBA463;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 5px;
+}
+
 .companies {
-            display: grid;
-            border-radius: 5px;
-            padding: 10px;
-            background-color: #BBA463;
-            border: 2px solid #996633;
-        }
+    grid-columns: auto;
+    border: 2px solid #996633;
+    padding: 10px;
+}
