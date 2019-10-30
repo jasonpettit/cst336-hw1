@@ -105,7 +105,7 @@ iframe {
     border-radius: 5px;
     padding: 10px;
     background-color: #BBA463;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2,1fr);
     grid-template-rows: auto;
     gap: 5px;
 }
